@@ -1,0 +1,9 @@
+React is a library primarily used for building user interfaces.
+Components in React are JavaScript functions extended to encapsulate HTML elements.
+This encapsulation facilitates code reusability and encapsulation of logic and presentation.
+React organizes components into a tree structure before rendering them into the Document Object Model (DOM).
+Props (short for properties) are used to configure custom component attributes.
+Props allow for dynamic and flexible behavior of components.
+We can seperate out the folders for components and special files for the css also.
+if we not pass any prop object a default prop object will always be passed and if you use the component like (<dummy>MidThingy</dummy>) . 
+The MidThingy will be your {props.children.}. This terminology is called component compistiton
